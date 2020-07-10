@@ -2,6 +2,6 @@
 class SortCls
 {
 public:
-	static int Test();
+	void BubbleSort(int* src, size_t size);
 };
 
