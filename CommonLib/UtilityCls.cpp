@@ -1,5 +1,6 @@
 #include "UtilityCls.h"
 #include <cstring> 
+#include <map>
 
 // Trim Operation
 void UtilityCls::Trim(char* src, size_t length)
@@ -58,4 +59,16 @@ void UtilityCls::Trim(char* src, size_t length)
 
 	}
 	// Else source string is empty or greater than 32 characters. Do not take any action
+}
+
+// Finding First Non-Repeating Character In Given String
+char FirstNonRepeatingCharacter(char* src, size_t length)
+{
+	// Using Key-Value Pair is definetly more efficent in constrast to using brute-force way by doing 2 loops
+	std::map<char, int> hashMap;
+	hashMap.insert(std::pair<char, int>('a', 0));
+
+	// TODO
+
+	return '_';
 }
