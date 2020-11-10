@@ -4,6 +4,7 @@
 
 #include "SortCls.h"
 #include "UtilityCls.h"
+#include <unordered_map>
 
 int main()
 {
@@ -32,5 +33,22 @@ int main()
 	{
 		std::cout << " " << i << " ";
 	}
+
+	// First Non Repeating Character
+	char cPtr2[] = "xaaabbccdedfeffg";
+	char firtsNonRepeatingChar = util.FirstNonRepeatingCharacter(cPtr2, sizeof(cPtr2) - 1);
+
+	// unoredered map using pair
+	std::unordered_map<char, int> uMap;
+	auto success = uMap.insert(std::pair<char, int>(cPtr2[0], 1));
+	for (std::unordered_map<char, int>::iterator iter = uMap.begin(); iter != uMap.end(); ++iter)
+	{
+		std::cout << std::endl << (*iter).first << "  --> " << (*iter).second << std::endl;
+	}
+	// success.first->first; key char
+	// success.first->second; value int
+
+
+
 	_getch();
 }
