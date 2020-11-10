@@ -24,3 +24,22 @@ void SortCls::BubbleSort(int* src, size_t size)
 		}
 	}
 }
+
+// Insertion Sort Algorithm
+void SortCls::InsertionSort(int* src, size_t size)
+{
+	// loop index 1 to n
+	for (size_t i = 1; i < size; i++)
+	{
+		int j = i;
+		// swap current element till it find a place 
+		// where it is no longer smaller than the element besides left of it.
+		while (j > 0 && src[j] < src[j - 1])
+		{
+			int temp = src[j-1];
+			src[j - 1] = src[j];
+			src[j] = temp;
+			--j;
+		}		
+	}
+}
