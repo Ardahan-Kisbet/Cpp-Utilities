@@ -1,6 +1,7 @@
 #include "UtilityCls.h"
 #include <cstring> 
 #include <unordered_map>
+#include <algorithm>
 
 // Trim Operation
 void UtilityCls::Trim(char* src, size_t length)
@@ -69,7 +70,7 @@ char UtilityCls::FirstNonRepeatingCharacter(const char* src, size_t length)
 
 	// Using Key-Value Pair is definetly more efficent in constrast to using brute-force way by doing 2 loops
 	std::unordered_map<char, int> uMap;
-	
+
 	for (size_t i = 0; i < length; ++i)
 	{
 		// unordered map O(1) lookup
@@ -131,5 +132,25 @@ int UtilityCls::lengthOfLastWord(std::string s)
 	}
 
 	return counter;
+}
+
+// Find Max Depth of a Binary Tree (LinkedList)
+int UtilityCls::MaximumDepthOfBinaryTree(TreeNode* root)
+{
+	// We can traverse binary tree preorder while calculating the levels recursively
+
+	// null check
+	if (root == nullptr)
+		return 0;
+
+	// this node itself count as 1
+	int count = 1;
+
+	// check depths of left and right childs then get the maximum among them
+	count += std::max(MaximumDepthOfBinaryTree(root->left), MaximumDepthOfBinaryTree(root->right));
+
+	//max(maxDepth(root->left), maxDepth(root->right))
+
+	return count;
 }
 

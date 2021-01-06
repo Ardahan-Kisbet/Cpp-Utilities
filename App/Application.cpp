@@ -48,7 +48,9 @@ int main()
 	// success.first->first; key char
 	// success.first->second; value int
 
-
+	// set Project --> Properties --> C/C++ --> Command Line --> Additional Options to /Zc:__cplusplus
+	// Then select Project --> Properties --> C/C++ --> Language --> C++ Language Standards 
+	//std::cout << "__cplusplus --> " << __cplusplus << std::endl;
 
 	_getch();
 }
