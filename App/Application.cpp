@@ -52,5 +52,7 @@ int main()
 	// Then select Project --> Properties --> C/C++ --> Language --> C++ Language Standards 
 	//std::cout << "__cplusplus --> " << __cplusplus << std::endl;
 
+	util.ValidParantheses("()[]{}");
+
 	_getch();
 }

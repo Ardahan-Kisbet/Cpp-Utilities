@@ -17,5 +17,6 @@ public:
 	char FirstNonRepeatingCharacter(const char* src, size_t length);
 	int lengthOfLastWord(std::string s);
 	int MaximumDepthOfBinaryTree(TreeNode* root);
+	bool ValidParantheses(std::string s);
 };
 

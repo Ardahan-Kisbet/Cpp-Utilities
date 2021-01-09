@@ -2,6 +2,8 @@
 #include <cstring> 
 #include <unordered_map>
 #include <algorithm>
+#include <stack>
+#include <iostream>
 
 // Trim Operation
 void UtilityCls::Trim(char* src, size_t length)
@@ -152,5 +154,11 @@ int UtilityCls::MaximumDepthOfBinaryTree(TreeNode* root)
 	//max(maxDepth(root->left), maxDepth(root->right))
 
 	return count;
+}
+
+// Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+bool UtilityCls::ValidParantheses(std::string s)
+{
+	// TODO
 }
 
