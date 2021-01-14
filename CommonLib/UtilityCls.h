@@ -18,5 +18,6 @@ public:
 	int lengthOfLastWord(std::string s);
 	int MaximumDepthOfBinaryTree(TreeNode* root);
 	bool ValidParantheses(std::string s);
+	int strStr(std::string haystack, std::string needle);
 };
 
