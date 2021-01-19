@@ -138,9 +138,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FirstNonRepeatingCharacter.cpp" />
+    <ClCompile Include="KingdomDivision.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
+    <ClCompile Include="LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="SortCls.cpp" />
     <ClCompile Include="StringCls.cpp" />
+    <ClCompile Include="TheNeedlesInHaystack.cpp" />
     <ClCompile Include="UtilityCls.cpp" />
+    <ClCompile Include="ValidParantheses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SortCls.h" />
