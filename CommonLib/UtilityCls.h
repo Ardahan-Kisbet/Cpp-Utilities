@@ -14,10 +14,6 @@ public:
 
 public:
 	void Trim(char* src, size_t length);
-	char FirstNonRepeatingCharacter(const char* src, size_t length);
-	int lengthOfLastWord(std::string s);
-	int MaximumDepthOfBinaryTree(TreeNode* root);
-	bool ValidParantheses(std::string s);
 	int strStr(std::string haystack, std::string needle);
 };
 
