@@ -35,5 +35,6 @@ int main()
 	}
 
 
-	_getch();
+	
+	std::cin.get();
 }
