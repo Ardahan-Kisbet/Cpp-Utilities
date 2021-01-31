@@ -5,6 +5,8 @@
 #include "SortCls.h"
 #include "UtilityCls.h"
 #include <unordered_map>
+#include "IsPalindrome.cpp"
+using namespace std;
 
 int main()
 {
@@ -33,8 +35,8 @@ int main()
 	{
 		std::cout << " " << i << " ";
 	}
-
-
-	
-	std::cin.get();
+    
+    std::cin.get();
 }
+
+

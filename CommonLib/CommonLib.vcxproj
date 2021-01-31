@@ -139,10 +139,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="FirstNonRepeatingCharacter.cpp" />
+    <ClCompile Include="IsPalindrome.cpp" />
     <ClCompile Include="KingdomDivision.cpp" />
     <ClCompile Include="LengthOfLastWord.cpp" />
     <ClCompile Include="LengthOfLongestSubstring.cpp" />
+    <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
+    <ClCompile Include="Multivitamin.cpp" />
     <ClCompile Include="SortCls.cpp" />
     <ClCompile Include="StringCls.cpp" />
     <ClCompile Include="TheNeedlesInHaystack.cpp" />
