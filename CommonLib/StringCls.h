@@ -19,6 +19,7 @@ public:
 	// operators
 
 	// comparison operators
+	bool operator == (const StringCls& s);
 
 	// conversion operators
 
@@ -27,7 +28,5 @@ public:
 	// find and replace methods
 
 	// split methods
-
-
 };
 
