@@ -50,6 +50,9 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ProtocolCls.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringCls.h">
@@ -61,5 +64,11 @@
     <ClInclude Include="UtilityCls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ProtocolCls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CommonLib1.rc" />
   </ItemGroup>
 </Project>

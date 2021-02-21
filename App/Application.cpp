@@ -6,6 +6,7 @@
 #include "UtilityCls.h"
 #include <unordered_map>
 #include "IsPalindrome.cpp"
+#include <ProtocolCls.h>
 using namespace std;
 
 int main()
@@ -36,6 +37,10 @@ int main()
 		std::cout << " " << i << " ";
 	}
     
+	ProtocolFactory factory;
+	unique_ptr<IProtocol> protocol = factory.CreateProtocol(ProtocolType::Protocol_UDP);
+	std::cout<< std::endl<<static_cast<int>(protocol->GetType()) <<std::endl;
+
     std::cin.get();
 }
 
