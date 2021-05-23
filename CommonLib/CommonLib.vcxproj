@@ -146,21 +146,14 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp" />
     <ClCompile Include="MaxDepthOfBinaryTree.cpp" />
     <ClCompile Include="Multivitamin.cpp" />
-    <ClCompile Include="ProtocolCls.cpp" />
     <ClCompile Include="SortCls.cpp" />
-    <ClCompile Include="StringCls.cpp" />
     <ClCompile Include="TheNeedlesInHaystack.cpp" />
     <ClCompile Include="UtilityCls.cpp" />
     <ClCompile Include="ValidParantheses.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ProtocolCls.h" />
     <ClInclude Include="SortCls.h" />
-    <ClInclude Include="StringCls.h" />
     <ClInclude Include="UtilityCls.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="CommonLib1.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

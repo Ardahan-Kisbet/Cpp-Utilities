@@ -11,9 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="StringCls.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SortCls.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -50,25 +47,13 @@
     <ClCompile Include="LongestPalindromicSubstring.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ProtocolCls.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="StringCls.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SortCls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="UtilityCls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ProtocolCls.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="CommonLib1.rc" />
   </ItemGroup>
 </Project>
