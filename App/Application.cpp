@@ -4,7 +4,7 @@
 #include "UtilityCls.h"
 #include <unordered_map>
 #include "IsPalindrome.cpp"
-using namespace std;
+#include "iterator.h"
 
 int main()
 {
@@ -32,6 +32,16 @@ int main()
 	for (auto i : arr)
 	{
 		std::cout << " " << i << " ";
+	}
+
+	//custom array with iterator
+	std::cout << std::endl << std::endl;
+	std::cout << std::endl << "custom array with iterator: ";
+	Util::myArray<int, 10> myArr = { 1, 2, 3, 4, 5, 0, -1, -2, 2, 10 };
+
+	for (auto i : myArr)
+	{
+		std::cout << i << std::endl;
 	}
 
     std::cin.get();

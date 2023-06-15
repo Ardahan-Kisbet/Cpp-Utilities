@@ -55,5 +55,8 @@
     <ClInclude Include="UtilityCls.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="iterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
