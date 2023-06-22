@@ -7,10 +7,6 @@ namespace Util
 	template<class T, size_t N>
 	class myArray
 	{
-		// array kullan
-		// iterator yaz
-		// raw pointer ile yada smart pointer fark etmez
-
 		struct iterator : std::forward_iterator_tag
 		{
 			T* mPtr;
